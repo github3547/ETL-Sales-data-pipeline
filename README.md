@@ -1,14 +1,9 @@
-# 🔄 ETL Sales Data Pipeline
+# ETL Sales Data Pipeline
 
-[![ETL Pipeline CI](https://github.com/YOUR_USERNAME/etl-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/etl-pipeline/actions)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A production-style **Extract → Clean → Transform → Load** pipeline built with Python, pandas, and SQLite. Designed to demonstrate core data engineering skills relevant to **Canberra APS / government data roles** including gap analysis, ETL orchestration, data quality checks, and scheduler integration.
+A production-style **Extract → Clean → Transform → Load** pipeline built with Python, pandas, and SQLite. Designed to demonstrate core data engineering skills. 
 
----
-
-## 📐 Architecture
+## Architecture
 
 ```
 data/sales_data.csv
@@ -43,7 +38,7 @@ data/sales_data.csv
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 etl_pipeline/
@@ -65,7 +60,7 @@ etl_pipeline/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone & install
 
@@ -106,7 +101,7 @@ python -m pytest tests/ -v
 
 ---
 
-## ⚙️ Scheduling
+##  Scheduling
 
 ### Linux / macOS (cron)
 
@@ -131,7 +126,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ---
 
-## 🔧 Data Cleaning Rules
+##  Data Cleaning Rules
 
 | Check | Action |
 |---|---|
@@ -145,7 +140,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ---
 
-## 📊 Output Tables (Star Schema)
+##  Output Tables (Star Schema)
 
 | Table | Description |
 |---|---|
@@ -157,7 +152,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ---
 
-## ☁️ Cloud / PostgreSQL Migration
+## Cloud / PostgreSQL Migration
 
 Swap the SQLite connection in `pipeline.py` for PostgreSQL in one line:
 
@@ -182,7 +177,7 @@ df  = pd.read_csv(io.BytesIO(obj["Body"].read()))
 
 ---
 
-## 🧪 CI/CD
+##  CI/CD
 
 GitHub Actions runs on every push:
 1. Install dependencies  
@@ -193,7 +188,7 @@ GitHub Actions runs on every push:
 
 ---
 
-## 📌 Skills Demonstrated
+##  Skills Demonstrated
 
 - **ETL / Data Pipeline Design** — modular Extract, Clean, Transform, Load stages  
 - **Gap Analysis** — missing data detection, quality KPIs, audit trail  
@@ -205,6 +200,4 @@ GitHub Actions runs on every push:
 
 ---
 
-## 📄 License
 
-MIT — free to use, adapt, and extend.
