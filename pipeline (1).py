@@ -2,9 +2,8 @@
 ETL Pipeline: Sales Data Processor
 ====================================
 Extract → Clean → Transform → Load into SQLite
-Designed for Canberra APS/data roles: gap analysis, ETL, APIs, cloud-ready.
 
-Author: Your Name
+Author: Mohammad Khairul Jahan
 """
 
 import pandas as pd
