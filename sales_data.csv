@@ -1,0 +1,26 @@
+order_id,customer_name,email,product,category,quantity,unit_price,order_date,region,status
+1001,Alice Johnson,alice@example.com,Laptop Pro,Electronics,2,1299.99,2024-01-15,NSW,completed
+1002,Bob Smith,bob@example.com,Office Chair,Furniture,1,349.50,2024-01-16,VIC,completed
+1003,Carol White,,Standing Desk,Furniture,1,599.00,2024-01-17,QLD,pending
+1004,David Brown,david@example.com,Wireless Mouse,Electronics,5,49.99,2024-01-18,NSW,completed
+1005,Eve Davis,eve@EXAMPLE.COM,USB-C Hub,Electronics,3,79.99,2024-01-18,SA,completed
+1006,Frank Miller,frank@example.com,Monitor 27",Electronics,1,449.00,2024/01/19,WA,completed
+1007,Grace Lee,grace@example.com,Keyboard Mech,Electronics,2,129.99,2024-01-20,VIC,cancelled
+1008,Henry Wilson,henry@example.com,Laptop Pro,Electronics,1,1299.99,2024-01-20,NSW,completed
+1009,Iris Chen,iris@example.com,Webcam HD,Electronics,4,89.99,2024-01-21,QLD,completed
+1010,Jack Taylor,,Desk Lamp,Furniture,2,45.00,2024-01-21,NSW,pending
+1011,Karen Anderson,karen@example.com,Laptop Pro,Electronics,1,1299.99,2024-01-22,VIC,completed
+1012,Liam Martinez,liam@example.com,Office Chair,Furniture,3,349.50,2024-01-22,WA,completed
+1013,Mia Thompson,mia@example.com,USB-C Hub,Electronics,2,79.99,2024-01-23,NSW,completed
+1014,Noah Garcia,noah@example.com,Monitor 27",Electronics,2,449.00,2024-01-23,QLD,completed
+1015,Olivia Martinez,olivia@example.com,Standing Desk,Furniture,1,599.00,2024-01-24,VIC,pending
+1016,Peter Jackson,peter@example.com,Wireless Mouse,Electronics,10,49.99,2024-01-24,NSW,completed
+1017,Quinn Adams,quinn@example.com,Webcam HD,Electronics,2,89.99,2024-01-25,SA,cancelled
+1018,Rachel Scott,rachel@example.com,Keyboard Mech,Electronics,1,129.99,2024-01-25,WA,completed
+1019,Sam White,sam@example.com,Desk Lamp,Furniture,5,45.00,2024-01-26,NSW,completed
+1020,Tina Brown,tina@example.com,Laptop Pro,Electronics,1,1299.99,2024-01-26,VIC,completed
+1021,Uma Patel,uma@example.com,Monitor 27",Electronics,-1,449.00,2024-01-27,QLD,completed
+1022,Victor Nguyen,victor@example.com,Office Chair,Furniture,2,349.50,2024-01-27,NSW,completed
+1023,Wendy Kim,wendy@example.com,USB-C Hub,Electronics,3,79.99,2024-01-28,VIC,completed
+1024,Xavier Brown,xavier@example.com,Wireless Mouse,Electronics,8,49.99,2024-01-28,WA,completed
+1025,Yara Hassan,yara@example.com,Standing Desk,Furniture,1,599.00,2024-01-29,NSW,completed
